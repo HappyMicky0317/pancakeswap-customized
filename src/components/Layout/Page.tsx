@@ -34,7 +34,6 @@ export const PageMeta: React.FC<{ symbol?: string }> = ({ symbol }) => {
   let pageTitle = cakePriceUsdDisplay ? [title, cakePriceUsdDisplay].join(' - ') : title
   if (symbol) {
     pageTitle = [symbol, title].join(' - ')
-    // 
   }
 
   return (
