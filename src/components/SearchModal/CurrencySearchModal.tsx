@@ -51,7 +51,7 @@ export default function CurrencySearchModal({
   showCommonBases = false,
 }: CurrencySearchModalProps) {
   const [modalView, setModalView] = useState<CurrencyModalView>(CurrencyModalView.search)
-// dfdf
+// dfd
   const handleCurrencySelect = useCallback(
     (currency: Currency) => {
       onDismiss()
